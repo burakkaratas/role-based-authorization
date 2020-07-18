@@ -47,4 +47,9 @@ public class OrderController {
     orderService.deleteOrderById(id);
     return "redirect:/";
   }
+
+  @GetMapping("/403")
+  public String error403() {
+    return "403";
+  }
 }

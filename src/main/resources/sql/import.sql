@@ -1,6 +1,6 @@
-INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('1', 1, '123456', 'root');
-INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('2', 1, '654321', 'admin');
-INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('3', 1, '123456', 'user');
+INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('1', 1, '$2a$10$sd32oRp3r3i1PpyMwPs7q.LJksQ1ywJtu5JJ3EGNvFFoOKnqyj8cG', 'root');
+INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('2', 1, '$2a$10$sd32oRp3r3i1PpyMwPs7q.LJksQ1ywJtu5JJ3EGNvFFoOKnqyj8cG', 'admin');
+INSERT INTO `spring-security`.`users` (`user_id`, `bactive`, `vpassword`, `vusername`) VALUES ('3', 1, '$2a$10$sd32oRp3r3i1PpyMwPs7q.LJksQ1ywJtu5JJ3EGNvFFoOKnqyj8cG', 'user');
 
 INSERT INTO `spring-security`.`role` (`role_id`, `vname`) VALUES ('1', 'admin');
 INSERT INTO `spring-security`.`role` (`role_id`, `vname`) VALUES ('2', 'root');
